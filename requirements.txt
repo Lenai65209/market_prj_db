@@ -106,3 +106,4 @@ social-auth-app-django==5.0.0
 social-auth-core==4.1.0
 soupsieve==1.9.1
 Sphinx==2.1.2
+whitenoise
