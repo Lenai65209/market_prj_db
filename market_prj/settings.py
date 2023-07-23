@@ -89,14 +89,14 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
 
-    #'default': {
-        #'NAME': 'market_prj_db',
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'USER': 'prj_user',
-        #'PASSWORD': 'prj_user',
-        #'HOST': 'localhost',
-        #'PORT': '5434',
-    #}
+    # 'default': {
+    #     'NAME': 'market_prj_db',
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'USER': 'prj_user',
+    #     'PASSWORD': 'prj_user',
+    #     'HOST': 'localhost',
+    #     'PORT': '5434',
+    # }
 
 }
 
@@ -168,7 +168,7 @@ STATIC_URL = '/static/'
 
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, "static"),
 )
 
 MEDIA_URL = '/media/'
